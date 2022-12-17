@@ -1,3 +1,29 @@
+const data = {
+  "Fernette": {
+    "hasBeenDrawn": false
+  },
+	"Jimmela": {
+    "hasBeenDrawn": false
+  },
+	"Jazmyne": {
+    "hasBeenDrawn": false
+  },
+	"Rakiah": {
+    "hasBeenDrawn": true
+  },
+	"Lulu": {
+    "hasBeenDrawn": false
+  },
+	"April": {
+    "hasBeenDrawn": false
+  },
+	"Duke": {
+    "hasBeenDrawn": false
+  },
+	"Buwana": {
+    "hasBeenDrawn": false
+  }
+}
 // the purpose of this application is to pull names for the family to do a Christmas gift exchange.
 
 // HOW IT WORKS
@@ -15,7 +41,7 @@
 // Duke
 
 // Names will be an array, and we will select a name by random number function that will correlate to the index of the name
-
+console.log({data})
 const names = [
 	'Fernette',
 	'Jimmela',
@@ -29,14 +55,14 @@ const names = [
 
 const userName = 'Jazmyne';
 // console.log(names[1]);
-
+const undrawnUsers = Object.entries(data).filter((user) => !user[1].hasBeenDrawn) /// => [['Fernette', {hasBeenDrawn: false}], [], []]
 // function for generating a random name based off of the number of names in the array
 
-// const getRandomName = () => {
-// 	min = Math.ceil(0);
-// 	max = Math.floor(names.length);
-// 	return names[Math.floor(Math.random() * (max - min) + 0)];
-// };
+const getRandomName = () => {
+	min = Math.ceil(0);
+	max = Math.floor();
+	return names[Math.floor(Math.random() * (max - min) + 0)];
+};
 
 // we have a function that generates a random name from the array, now, I want to pop out the names that have been generated from the function so that we dont get double names
 
