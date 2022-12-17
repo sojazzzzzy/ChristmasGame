@@ -54,13 +54,43 @@ for (let i = 0; i < names.length; i++) {
 		console.log('this works so far');
 	}
 }
-console.log(getRandomName());
-console.log(getRandomName());
-console.log(getRandomName());
-console.log(getRandomName());
-console.log(getRandomName());
-console.log(getRandomName());
-console.log(getRandomName());
+
+
+// While loop to run the process as long as there are names in the array. we need a user input (their name) and then we need to run the getRandomName function to generate a name on screen. That name represents who the user will buy a gift for. we need an if statement that says to run the function again if the getRandomName == user name. Once the name has been generated, we need to splice the name from the array so that we can continue to generate names from the array until there are none left.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(getRandomName());
+// console.log(getRandomName());
+// console.log(getRandomName());
+// console.log(getRandomName());
+// console.log(getRandomName());
+// console.log(getRandomName());
+// console.log(getRandomName());
 
 // let randomName = getRandomNumber();
 
@@ -86,13 +116,11 @@ console.log(getRandomName());
 // 	return randomName;
 // };
 
-console.log(names.splice(getRandomName(), 1));
-console.log(names);
-console.log(names.splice(getRandomName(), 1));
-console.log(names);
-console.log(names.splice(getRandomName(), 1));
-console.log(names);
-console.log(names.splice(getRandomName(), 1));
-console.log(names);
-
-// While loop to run the process as long as there are names in the array. we need a user input (their name) and then we need to run the getRandomName function to generate a name on screen. That name represents who the user will buy a gift for. we need an if statement that says to run the function again if the getRandomName == user name. Once the name has been generated, we need to splice the name from the array so that we can continue 
+// console.log(names.splice(getRandomName(), 1));
+// console.log(names);
+// console.log(names.splice(getRandomName(), 1));
+// console.log(names);
+// console.log(names.splice(getRandomName(), 1));
+// console.log(names);
+// console.log(names.splice(getRandomName(), 1));
+// console.log(names);
